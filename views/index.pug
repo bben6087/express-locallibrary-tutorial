@@ -1,21 +1,21 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #[em LocalLibrary], a very basic Express website developed as a tutorial example on the Mozilla Developer Network.
-
-
-  h1 Dynamic content
+  h1 This is my First Full Stack App
+  p It is a simple app being hosted on Heroku
+  
+  h1 I hope you like it!!!
 
   if error
     p Error getting dynamic content.
   else
 
-    p The library has the following record counts:
+    p Things I love to do
 
     ul
-      li #[strong Books:] !{data.book_count}
-      li #[strong Copies:] !{data.book_instance_count}
-      li #[strong Copies available:] !{data.book_instance_available_count}
-      li #[strong Authors:] !{data.author_count}
-      li #[strong Genres:] !{data.genre_count}
+      li Play video games
+      li Read Books
+      li Play disc golf
+  h3 P.S. It is extremely simple and for fun!
+  button(id="btn" type="button" class="btn btn-warning") Click
+  p(id="text") I havent figured out how to use the button yet

@@ -27,3 +27,10 @@ To get this project up and running locally on your computer:
 1. Open a browser to http://localhost:3000/ to open the library site.
 
 > **Note:** The library uses a default MongoDb database hosted on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas). You should use a different database for your own code experiments.
+
+## Sources
+- MDN - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment 
+- MDN GitHub Page https://github.com/mdn/express-locallibrary-tutorial 
+
+This is where I got all of this code you can clone their repo and mess around with this yourself
+I do not take credit for all of this. This all goes to MDN. Access their website and repo above
